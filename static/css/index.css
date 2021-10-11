@@ -1,0 +1,197 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: medium;
+}
+
+img {
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-family: serif;
+    font-weight: bolder;
+}
+
+.nav-text {
+    font-family: monospace;
+}
+
+.hr {
+    height: 5px;
+    background-color: black;
+    border: none;
+}
+
+.button-text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(32, 173, 173);
+    align-items: center;
+}
+
+.header-object {
+    display: inline-block;
+    position: relative;
+    font-family: serif;
+}
+
+.section {
+    padding: 10px 250px;
+}
+
+.logo-container {
+    background-color: rgb(32, 173, 173);;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+}
+
+.cookie-policy-object {
+    display: inline-block;
+}
+
+.image-container {
+    display: inline-block;
+    text-align: center;
+    height: 11%;
+    width: 11%;
+}
+
+.gallery-container {
+    display: flex;
+    background-color: rgb(184, 235, 235);
+    padding: 10px;
+    justify-content: space-evenly;
+    margin: 10px 250px;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.arrow-light {
+
+}
+
+#accept-button {
+    margin: 15px;
+    width: 10%;
+    height: 30px;
+    background-color: rgb(32, 173, 173);
+}
+
+#top-container {
+    display: inline-block;
+}
+
+#search-bar {
+    top: 35px;
+    height: 30px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+#sign-in {
+    top: 35px;
+    color: inherit;
+    text-decoration: none;
+
+}
+
+#alliteration {
+    text-align: center;
+}
+
+#ad-section {
+    height: 400px;
+}
+
+#discovery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(32, 173, 173);
+}
+
+#succulent-container {
+    width: 40%;
+    
+}
+
+#aloe-container {
+    padding-left: 10px;  
+    width: 30%;
+
+}
+
+#discovery {
+    width: 40%;
+}
+
+#soothing-aloe {
+    width: 75%
+}
+
+#alert {
+    height: 75%;
+}
+
+#cookie-policy {
+    background-color: whitesmoke;
+    display: flex;
+    position: fixed;
+    top: 80%;
+    left: 20%;
+    right: 20%;
+    height: 75px;
+    border: 2px black;
+}
+
+#succulents-image {
+    background: url("../../assets/images/succulents-1.jpg") no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+#succulents-image:hover {
+    background: url("../../assets/images/succulents-2.jpg");
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
